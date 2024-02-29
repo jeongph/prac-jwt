@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping("/health")
     public String health() {
-        return "";
+        return "HI!!";
     }
 }
